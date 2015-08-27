@@ -1,0 +1,23 @@
+{
+    "name": "michaeldrennen/laravel-bugify",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deer Park Road Management Company",
+            "email": "mdrennen@deerparkrd.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Michaeldrennen\\LaravelBugify\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
